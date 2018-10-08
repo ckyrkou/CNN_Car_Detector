@@ -1,5 +1,6 @@
-# CNN_Car_Detector
-Training a deep-learning classifier for aerial top view detection of vehicles
+# Training a deep-learning classifier for aerial top view detection of vehicles
+
+Deep learning approaches have demonstrated state-of-the-art performance in various computer vision tasks such as object detection and recognition. In this repository I provide code and details on how to develop and train a Convolutional Neural Network (CNN) to detect top-view vehicles from UAV footage.
 
 ![CNN Detector][/images/cnn.png]
 
