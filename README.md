@@ -6,7 +6,7 @@ A larger scale training and data set was used in the following:
 
 <a href="https://youtu.be/x3_ujmXM8xk
 " target="_blank"><img src="https://cdn-images-1.medium.com/max/800/1*5QjytkBi1bXXiyGm6fohJA.jpeg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="240" height="240" border="10" /></a>
 
 
 If you use this dataset and code in your research please site the following paper:
