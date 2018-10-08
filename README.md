@@ -1,6 +1,7 @@
 # CNN_Car_Detector
 Training a deep-learning classifier for aerial top view detection of vehicles
 
+![CNN Detector][/images/cnn.png]
 
 A larger scale training and data set was used in the following:
 
