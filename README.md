@@ -2,13 +2,13 @@
 
 Deep learning approaches have demonstrated state-of-the-art performance in various computer vision tasks such as object detection and recognition. In this repository I provide code and details on how to develop and train a Convolutional Neural Network (CNN) to detect top-view vehicles from UAV footage.
 
-![CNN Detector](https://cdn-images-1.medium.com/max/800/1*awybeIxq_Yvg8jBfvrzPjg.png| width=100)
+<img src="https://cdn-images-1.medium.com/max/800/1*awybeIxq_Yvg8jBfvrzPjg.png" width="512">
 
-![CNN Detector](./images/cnn.png)
+<img src="./images/cnn.png" width="512">
 
 
 
-A larger scale training and data set was used in the following:
+A demo of a larger scale training and data set is shown in the following video:
 
 <a href="https://youtu.be/x3_ujmXM8xk
 " target="_blank"><img src="https://cdn-images-1.medium.com/max/800/1*5QjytkBi1bXXiyGm6fohJA.jpeg" 
