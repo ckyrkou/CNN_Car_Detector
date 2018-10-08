@@ -4,7 +4,9 @@ Training a deep-learning classifier for aerial top view detection of vehicles
 
 If you use this dataset and code in your research please site the following paper:
 
+
 @INPROCEEDINGS{8326145, 
+
 author={C. Kyrkou and S. Timotheou and P. Kolios and T. Theocharides and C. G. Panayiotou}, 
 
 booktitle={2018 IEEE International Conference on Consumer Electronics (ICCE)}, 
