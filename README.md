@@ -2,6 +2,8 @@
 
 **CODE TO FOLLOW...**
 
+## Overview
+
 Deep learning approaches have demonstrated state-of-the-art performance in various computer vision tasks such as object detection and recognition. In this repository I provide code and details on how to develop and train a Convolutional Neural Network (CNN) to detect top-view vehicles from UAV footage.
 
 <img src="https://cdn-images-1.medium.com/max/800/1*awybeIxq_Yvg8jBfvrzPjg.png" width="512">
@@ -9,6 +11,14 @@ Deep learning approaches have demonstrated state-of-the-art performance in vario
 <img src="./images/cnn.png" width="512">
 
 
+## Dependencies
+
+- Keras - 2.2.0
+- Tensorflow - 1.5.0
+- NUmPy - 1.14.5
+- OpenCV - 3.4.0
+
+## Demo
 
 A demo of a larger scale training and data set is shown in the following video:
 
@@ -17,8 +27,14 @@ A demo of a larger scale training and data set is shown in the following video:
 alt="IMAGE ALT TEXT HERE" width="240" height="240" border="10" /></a>
 
 
+## Relevant Material
+
 If you use this dataset and code in your research please site the following paper:
 
 • Christos Kyrkou, George Plastiras, Stylianos Venieris, Theocharis Theocharides, Christos-Savvas Bouganis, "DroNet: Efficient convolutional neural network detector for real-time UAV applications," 2018 Design, Automation & Test in Europe Conference & Exhibition (DATE), Dresden, Germany, pp. 967-972, March 2018. 
 
 [See Paper](https://ieeexplore.ieee.org/abstract/document/8326145)
+
+Also more technical details can be found in the following Medium post:
+
+[Medium Article](https://medium.com/@ckyrkou/training-a-deep-learning-classifier-for-aerial-top-view-detection-of-vehicles-874f88d81c4)
