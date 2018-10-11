@@ -29,7 +29,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="240" border="10" /></a>
 
 ## Relevant Material
 
-If you use this dataset and code in your research please site the following paper:
+If you use this dataset and/or code in your research please site the following paper:
 
 • C. Kyrkou, S. Timotheou, P. Kolios, T. Theocharides and C. G. Panayiotou, "Optimized vision-directed deployment of UAVs for rapid traffic monitoring," 2018 IEEE International Conference on Consumer Electronics (ICCE), Las Vegas, NV, 2018, pp. 1-6.
 doi: 10.1109/ICCE.2018.8326145
