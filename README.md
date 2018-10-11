@@ -11,7 +11,7 @@ Deep learning approaches have demonstrated state-of-the-art performance in vario
 
 ### Convolutional Neural Network
 
-The Convolutional Neural Network (CNN) used is a conventional one and rather small compared to other models such as VGG16 and ResNet50. The purpose is to have a small example to allow for rapid expiramentation. It uses well known concepts such as *Droput*,*BatchNormalization*,and *Relu activations*. The CNN accepts as input an image patch of 50x50 pixels (default). The patches are extracted using the [sliding window appoach](https://medium.com/@ckyrkou/have-you-ever-thought-of-detecting-objects-using-machine-learning-tools-4a67a6fe0522). More recent techniques such as YOLO and Faster-RCNN can be used but this repo can serve as a good starting point for someone looking starting now with objecte detection systems. 
+The Convolutional Neural Network (CNN) used is a conventional one and rather small compared to other models such as VGG16 and ResNet50. The purpose is to have a small example to allow for rapid expiramentation. It uses well known concepts such as *Droput*,*BatchNormalization*,and *Relu activations*. The CNN accepts as input an image patch of 50x50 pixels (default). The patches are extracted using the [sliding window appoach](https://medium.com/@ckyrkou/have-you-ever-thought-of-detecting-objects-using-machine-learning-tools-4a67a6fe0522). More recent techniques such as **YOLO** and **Faster-RCNN** can be used but this repo can serve as a good starting point for someone looking starting now with objecte detection systems. 
 
 <img src="https://cdn-images-1.medium.com/max/800/1*awybeIxq_Yvg8jBfvrzPjg.png" width="512">
 
