@@ -10,6 +10,7 @@ Deep learning approaches have demonstrated state-of-the-art performance in vario
 
 <img src="./images/cnn.png" width="512">
 
+<img src="./images/color.png" width="512">
 
 ## Dependencies
 
