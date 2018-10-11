@@ -21,6 +21,44 @@ To identify potential regions of interest such as the road, which is more probab
 
 <img src="./images/color.png" width="512">
 
+## Dataset
+
+The dataset used is a subset of a larger dataset collected using a *DJI Matrice 100 UAV*. The vehicle images where cropped and used to construct a training and validation set.
+
+```
+./
+└───data
+│   │   file011.txt
+│   │   file012.txt
+│   │
+│   └───train
+│       │   └───cars
+│   │   │    |    cars (1).jpg
+│   │   │    |    cars (2).jpg
+.
+.
+│   │   │    |    cars (503).jpg
+│       │   └───non_cars
+│   │   │    |    non_cars (1).png
+│   │   │    |    non_cars (2).png
+.
+.
+│   │   │    |    non_cars (2298).png
+│   └───validation
+│       │   └───cars
+│   │   │    |    cars (1).png
+│   │   │    |    cars (2).png
+.
+.
+│   │   │    |    cars (2393).png
+│       │   └───non_cars
+│   │   │    |    non_cars (1).png
+│   │   │    |    non_cars (2).png
+.
+.
+│   │   │    |    non_cars (2738).png
+```
+
 ## Dependencies
 
 - Keras - 2.2.0
