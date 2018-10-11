@@ -6,9 +6,17 @@
 
 Deep learning approaches have demonstrated state-of-the-art performance in various computer vision tasks such as object detection and recognition. In this repository I provide code and details on how to develop and train a Convolutional Neural Network (CNN) to detect top-view vehicles from UAV footage.
 
+<img src="./images/cnn.png" width="512">
+
+
+### Convolutional Neural Network
+
+
 <img src="https://cdn-images-1.medium.com/max/800/1*awybeIxq_Yvg8jBfvrzPjg.png" width="512">
 
-<img src="./images/cnn.png" width="512">
+### Color thresholding
+
+To identify potential regions of interest such as the road, which is more probable to containg vehicles color thresholding is performed. But first it is necessary to identify the color regions that represent the area we are looking for. For this reason the *sliders_color.py* implements a GUI which takes as input an image and uses slider bars for the minimum and maximum pixels values per 3 color channesl in order to identigy the range of colors to isolate. The specific chromatic model used is the [HSV model](https://en.wikipedia.org/wiki/HSL_and_HSV). 
 
 <img src="./images/color.png" width="512">
 
