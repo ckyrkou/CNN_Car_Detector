@@ -15,7 +15,7 @@ Deep learning approaches have demonstrated state-of-the-art performance in vario
 
 - Keras - 2.2.0
 - Tensorflow - 1.5.0
-- NUmPy - 1.14.5
+- Numpy - 1.14.5
 - OpenCV - 3.4.0
 
 ## Demo
