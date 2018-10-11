@@ -31,7 +31,8 @@ alt="IMAGE ALT TEXT HERE" width="240" height="240" border="10" /></a>
 
 If you use this dataset and code in your research please site the following paper:
 
-• Christos Kyrkou, George Plastiras, Stylianos Venieris, Theocharis Theocharides, Christos-Savvas Bouganis, "DroNet: Efficient convolutional neural network detector for real-time UAV applications," 2018 Design, Automation & Test in Europe Conference & Exhibition (DATE), Dresden, Germany, pp. 967-972, March 2018. 
+• C. Kyrkou, S. Timotheou, P. Kolios, T. Theocharides and C. G. Panayiotou, "Optimized vision-directed deployment of UAVs for rapid traffic monitoring," 2018 IEEE International Conference on Consumer Electronics (ICCE), Las Vegas, NV, 2018, pp. 1-6.
+doi: 10.1109/ICCE.2018.8326145
 
 [See Paper](https://ieeexplore.ieee.org/abstract/document/8326145)
 
