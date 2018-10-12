@@ -1,7 +1,5 @@
 # Training a deep-learning classifier for aerial top view detection of vehicles
 
-**CODE TO FOLLOW...**
-
 ## Overview
 
 Deep learning approaches have demonstrated state-of-the-art performance in various computer vision tasks such as object detection and recognition. In this repository I provide code and details on how to develop and train a Convolutional Neural Network (CNN) to detect top-view vehicles from UAV footage.
@@ -39,32 +37,36 @@ The dataset used is a subset of a larger dataset collected using a *DJI Matrice 
 .
 │   │   │    |    cars (503).jpg
 │       │   └───non_cars
-│   │   │    |    non_cars (1).png
-│   │   │    |    non_cars (2).png
+│   │   │    |    non_cars (1).jpg
+│   │   │    |    non_cars (2).jpg
 .
 .
-│   │   │    |    non_cars (2298).png
+│   │   │    |    non_cars (2298).jpg
 │   └───validation
 │       │   └───cars
-│   │   │    |    cars (1).png
-│   │   │    |    cars (2).png
+│   │   │    |    cars (1).jpg
+│   │   │    |    cars (2).jpg
 .
 .
-│   │   │    |    cars (2393).png
+│   │   │    |    cars (2393).jpg
 │       │   └───non_cars
-│   │   │    |    non_cars (1).png
-│   │   │    |    non_cars (2).png
+│   │   │    |    non_cars (1).jpg
+│   │   │    |    non_cars (2).jpg
 .
 .
-│   │   │    |    non_cars (2738).png
+│   │   │    |    non_cars (2738).jpg
 ```
 
 ## Dependencies
-
+- Python - 3.6.4
 - Keras - 2.2.0
 - Tensorflow - 1.5.0
 - Numpy - 1.14.5
 - OpenCV - 3.4.0
+
+## Run
+
+Use the command **python <filename>.py** to run one of **sliders_color.py**,**train_classifier.py**, or **detection.py**. 
 
 ## Demo
 
