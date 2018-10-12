@@ -26,8 +26,6 @@ The dataset used is a subset of a larger dataset collected using a *DJI Matrice 
 ```
 ./
 └───data
-│   │   file011.txt
-│   │   file012.txt
 │   │
 │   └───train
 │       │   └───cars
