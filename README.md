@@ -57,6 +57,8 @@ The dataset used is a subset of a larger dataset collected using a *DJI Matrice 
 │   │   │    |    non_cars (2738).jpg
 ```
 
+The imades are contained within **data.zip**, just extract to the root folder.
+
 ## Dependencies
 - Python - 3.6.4
 - Keras - 2.2.0
