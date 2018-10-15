@@ -92,4 +92,4 @@ Also more technical details can be found in the following Medium post:
 
 ## Acknowledgement
 
-This work was possible through an NVIDIA donation of a Titan XP GPU. 
+This work was possible through the support of NVIDIA Corporation with the donation of a Titan Xp GPU. 
