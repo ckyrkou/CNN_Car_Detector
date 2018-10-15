@@ -55,7 +55,7 @@ The dataset used is a subset of a larger dataset collected using a *DJI Matrice 
 │   │   │    |    non_cars (2738).jpg
 ```
 
-The imades are contained within **data.zip**, just extract to the root folder.
+The imades are contained within **data.zip**, just extract to the root folder. You are ncouraged to enrich the dataset in order to obtain more robust results. Please acknowledge the original dataset.
 
 ## Dependencies
 - Python - 3.6.4
@@ -89,3 +89,7 @@ doi: 10.1109/ICCE.2018.8326145
 Also more technical details can be found in the following Medium post:
 
 [Medium Article](https://medium.com/@ckyrkou/training-a-deep-learning-classifier-for-aerial-top-view-detection-of-vehicles-874f88d81c4)
+
+## Acknowledgement
+
+This work was possible through an NVIDIA donation of a Titan XP GPU. 
