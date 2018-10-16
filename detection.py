@@ -33,7 +33,7 @@ while(True):
 
     ret,frame = cap.read()
     if(ret == False):
-        print("Error reading from camera")
+        print("Done")
         break
 
 ############################

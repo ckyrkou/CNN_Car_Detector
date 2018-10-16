@@ -11,21 +11,12 @@ seed = 11
 rnd.seed(seed)
 np.random.seed(seed)
 
-datagen = ImageDataGenerator(
-        rotation_range=40,
-        width_shift_range=0.1,
-        height_shift_range=0.1,
-        shear_range=0.1,
-        zoom_range=0.1,
-        horizontal_flip=True,
-        fill_mode='nearest')
-
 
 ############################
 #### EDIT ONLY THIS BLOCK
 
 model = make_model()
-epochs = 5
+epochs = 100
 winH,winW = 50,50
 
 ############################
@@ -34,10 +25,14 @@ batch_size = 16
 
 # this is the augmentation configuration we will use for training
 train_datagen = ImageDataGenerator(
-        rescale=1./255,
+		rescale=1./255,
+        rotation_range=20,
+        width_shift_range=0.1,
+        height_shift_range=0.1,
         shear_range=0.1,
         zoom_range=0.1,
-        horizontal_flip=True)
+        horizontal_flip=True,
+        fill_mode='nearest')
 
 # this is the augmentation configuration we will use for testing:
 # only rescaling
@@ -59,13 +54,15 @@ validation_generator = test_datagen.flow_from_directory(
         batch_size=batch_size,
         class_mode='binary')
 
-filepath="weights.best.h5"
+filepath="weights_best.h5"
 checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
 callbacks_list = [checkpoint]
 
-class_weight = {0: 2.,
-                1: 1.}
+class_weight = {0: 10,
+                1: 1}
 
+# Change steps_per_epoch and validation_steps according to the dataset that you use.
+				
 model.fit_generator(
         train_generator,
         steps_per_epoch=5131 // batch_size,
