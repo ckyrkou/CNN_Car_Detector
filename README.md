@@ -68,6 +68,10 @@ The imades are contained within **data.zip**, just extract to the root folder. Y
 
 Use the command **python <filename>.py** to run one of **sliders_color.py**,**train_classifier.py**, or **detection.py**. Any parameters can be changed through the python files. The color thresholding is performed on the provided image. The best values will need to be past through to the detection stage. The detection stage has two modes one using the mask and one with just the sliding window. The window size, stride of the window, and rescale factors can all be modified within the python files. 
 
+When running the detector you expect to see an output like this:
+
+<img src="./images/det_res.png" width="512">
+
 ## Demo
 
 A demo of a larger scale training and data set is shown in the following video:
