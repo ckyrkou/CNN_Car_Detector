@@ -68,7 +68,49 @@ The imades are contained within **data.zip**, just extract to the root folder. Y
 
 Use the command **python <filename>.py** to run one of **sliders_color.py**,**train_classifier.py**, or **detection.py**. Any parameters can be changed through the python files. The color thresholding is performed on the provided image. The best values will need to be past through to the detection stage. The detection stage has two modes one using the mask and one with just the sliding window. The window size, stride of the window, and rescale factors can all be modified within the python files. 
 
-An initial model is provided in **weights_best.h5**. This is the file generated while training. You are encouraged to built better models to achieve better results. When running the detector iwth your model you expect to see an output like this:
+An initial model is provided in **weights_best.h5**. This is the file generated while training. You are encouraged to built better models to achieve better results. The model operates on 50x50 images with pixel values scaled between [0-1]. It is a relativally small model for experimentation.
+
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+conv2d_1 (Conv2D)            (None, 46, 46, 32)        2432
+_________________________________________________________________
+activation_1 (Activation)    (None, 46, 46, 32)        0
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 23, 23, 32)        0
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 19, 19, 32)        25632
+_________________________________________________________________
+activation_2 (Activation)    (None, 19, 19, 32)        0
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 9, 9, 32)          0
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 5, 5, 64)          51264
+_________________________________________________________________
+activation_3 (Activation)    (None, 5, 5, 64)          0
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 2, 2, 64)          0
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 256)               0
+_________________________________________________________________
+dense_1 (Dense)              (None, 64)                16448
+_________________________________________________________________
+activation_4 (Activation)    (None, 64)                0
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 64)                0
+_________________________________________________________________
+dense_2 (Dense)              (None, 1)                 65
+_________________________________________________________________
+activation_5 (Activation)    (None, 1)                 0
+=================================================================
+Total params: 95,841
+Trainable params: 95,841
+Non-trainable params: 0
+_________________________________________________________________
+
+
+
+When running the detector iwth your model you expect to see an output like this:
 
 <img src="./images/det_res.jpg" width="512">
 
