@@ -70,6 +70,7 @@ Use the command **python <filename>.py** to run one of **sliders_color.py**,**tr
 
 An initial model is provided in **weights_best.h5**. This is the file generated while training. You are encouraged to built better models to achieve better results. The model operates on 50x50 images with pixel values scaled between [0-1]. It is a relativally small model for experimentation.
 
+```
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #
 =================================================================
@@ -108,7 +109,7 @@ Trainable params: 95,841
 Non-trainable params: 0
 _________________________________________________________________
 
-
+```
 
 When running the detector iwth your model you expect to see an output like this:
 
