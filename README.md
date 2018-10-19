@@ -124,9 +124,9 @@ A demo of a larger scale training and data set is shown in the following video:
 alt="IMAGE ALT TEXT HERE" width="240" height="240" border="10" /></a>
 
 
-## Relevant Material
+## Cite us
 
-If you use this dataset and/or code in your research please site the following paper:
+Was the dataset and/or code useful for you? Please cite us:
 
 • C. Kyrkou, S. Timotheou, P. Kolios, T. Theocharides and C. G. Panayiotou, "Optimized vision-directed deployment of UAVs for rapid traffic monitoring," 2018 IEEE International Conference on Consumer Electronics (ICCE), Las Vegas, NV, 2018, pp. 1-6.
 doi: 10.1109/ICCE.2018.8326145
