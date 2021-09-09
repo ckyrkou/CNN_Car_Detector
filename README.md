@@ -111,7 +111,7 @@ _________________________________________________________________
 
 ```
 
-When running the detector iwth your model with the road mask applied you will expect to see an output like this:
+When running the detector with your model with the road mask applied you will expect to see an output like this:
 
 <img src="./images/det_res.jpg" width="512">
 
