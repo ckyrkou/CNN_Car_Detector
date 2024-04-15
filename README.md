@@ -55,7 +55,7 @@ The dataset used is a subset of a larger dataset collected using a *DJI Matrice 
 │   │   │    |    non_cars (2738).jpg
 ```
 
-The imades are contained within **data.zip**, just extract to the root folder. You are ncouraged to enrich the dataset in order to obtain more robust results. Please acknowledge the original dataset.
+The imades are contained within **data.zip**, just extract to the root folder. You are encouraged to enrich the dataset in order to obtain more robust results. Please acknowledge the original dataset.
 
 ## Dependencies
 - Python - 3.6.4
